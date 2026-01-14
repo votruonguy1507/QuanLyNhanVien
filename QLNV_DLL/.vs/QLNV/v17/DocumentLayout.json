@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:QuanLyNhanVien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:NhanVien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:NhanVien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}|QLNV_DLL.vcxproj|solutionrelative:QuanLyNhanVien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Downloads\\QLNV_Vector\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Downloads\\QLNV_Vector\\NhanVien.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utils.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.cpp",
+              "RelativeDocumentMoniker": "Utils.cpp",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.cpp",
+              "RelativeToolTip": "Utils.cpp",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-14T13:58:24.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV_Vector\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\QLNV_Vector\\main.cpp",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV_Vector\\main.cpp",
+              "RelativeToolTip": "..\\..\\QLNV_Vector\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-13T18:04:55.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.h",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV_Vector\\NhanVien.h",
+              "RelativeDocumentMoniker": "..\\..\\QLNV_Vector\\NhanVien.h",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV_Vector\\NhanVien.h",
+              "RelativeToolTip": "..\\..\\QLNV_Vector\\NhanVien.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-13T18:03:37.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-13T18:03:22.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyNhanVien.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.cpp",
+              "RelativeDocumentMoniker": "QuanLyNhanVien.cpp",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.cpp",
+              "RelativeToolTip": "QuanLyNhanVien.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-13T18:03:15.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVien.cpp",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.cpp",
+              "RelativeDocumentMoniker": "NhanVien.cpp",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.cpp",
+              "RelativeToolTip": "NhanVien.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-13T18:03:07.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utils.h",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.h",
+              "RelativeDocumentMoniker": "Utils.h",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Utils.h",
+              "RelativeToolTip": "Utils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-13T18:02:49.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyNhanVien.h",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.h",
+              "RelativeDocumentMoniker": "QuanLyNhanVien.h",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\QuanLyNhanVien.h",
+              "RelativeToolTip": "QuanLyNhanVien.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-13T18:02:38.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Node.h",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Node.h",
+              "RelativeDocumentMoniker": "Node.h",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\Node.h",
+              "RelativeToolTip": "Node.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-13T18:02:27.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanVien.h",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.h",
+              "RelativeDocumentMoniker": "NhanVien.h",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\QLNV\\QLNV_DLL\\NhanVien.h",
+              "RelativeToolTip": "NhanVien.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-13T18:02:14.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
