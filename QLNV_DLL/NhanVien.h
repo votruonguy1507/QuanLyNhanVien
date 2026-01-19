@@ -1,6 +1,6 @@
-#pragma once
-#pragma once
+﻿
 #include <string>
+#include <iostream>
 using namespace std;
 
 class NhanVien {
@@ -12,17 +12,14 @@ private:
 
 public:
     NhanVien();
-    NhanVien(string ma, string ten, string pb, double luong);
+    NhanVien(string ma, string ten, string phong, double luong);
 
-    string getMaNV() const;
-    string getHoTen() const;
-    string getPhongBan() const;
-    double getLuongCoBan() const;
+    // Getter
+    string getMaNV();
+    string getHoTen();
+    double getLuong();
 
-    void setHoTen(string ten);
-    void setPhongBan(string pb);
-    void setLuongCoBan(double luong);
-
-    void nhap();
-    void xuat() const;
-};
+    // Hàm xử lý
+    void Nhap();
+    void Xuat();
+}; 
