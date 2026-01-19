@@ -1,38 +1,33 @@
-#include "NhanVien.h"
-#include <iostream>
+﻿#include "NhanVien.h"
 #include <iomanip>
-using namespace std;
+#include "Utils.h"
 
-NhanVien::NhanVien() : luongCoBan(0) {}
+NhanVien::NhanVien() { luongCoBan = 0; }
 
-NhanVien::NhanVien(string ma, string ten, string pb, double luong)
-    : maNV(ma), hoTen(ten), phongBan(pb), luongCoBan(luong) {
+NhanVien::NhanVien(string ma, string ten, string phong, double luong) {
+    maNV = ma; hoTen = ten; phongBan = phong; luongCoBan = luong;
 }
 
-string NhanVien::getMaNV() const { return maNV; }
-string NhanVien::getHoTen() const { return hoTen; }
-string NhanVien::getPhongBan() const { return phongBan; }
-double NhanVien::getLuongCoBan() const { return luongCoBan; }
+string NhanVien::getMaNV() { return maNV; }
+string NhanVien::getHoTen() { return hoTen; }
+double NhanVien::getLuong() { return luongCoBan; }
 
-void NhanVien::setHoTen(string ten) { hoTen = ten; }
-void NhanVien::setPhongBan(string pb) { phongBan = pb; }
-void NhanVien::setLuongCoBan(double luong) { luongCoBan = luong; }
-
-void NhanVien::nhap() {
-    cout << "Ma NV: ";
-    getline(cin, maNV);
-    cout << "Ho ten: ";
-    getline(cin, hoTen);
-    cout << "Phong ban: ";
-    getline(cin, phongBan);
-    cout << "Luong co ban: ";
-    cin >> luongCoBan;
+void NhanVien::Nhap() {
     cin.ignore();
+    cout << "Nhap Ma NV: ";
+    getline(cin, maNV);
+
+    cout << "Nhap Ho Ten: ";
+    getline(cin, hoTen);
+
+    cout << "Nhap Phong Ban: ";
+    getline(cin, phongBan);
+
+    // THAY THẾ ĐOẠN WHILE DÀI DÒNG CŨ BẰNG 1 DÒNG NÀY:
+    luongCoBan = Utils::NhapSoDuong("Nhap Luong Co Ban: ");
 }
 
-void NhanVien::xuat() const {
-    cout << left << setw(10) << maNV
-        << setw(20) << hoTen
-        << setw(15) << phongBan
-        << setw(10) << luongCoBan << endl;
+void NhanVien::Xuat() {
+    cout << left << setw(10) << maNV << setw(25) << hoTen
+        << setw(15) << phongBan << setw(15) << fixed << setprecision(0) << luongCoBan << endl;
 }

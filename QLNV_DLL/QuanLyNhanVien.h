@@ -1,21 +1,25 @@
 ﻿#pragma once
-#include "Node.h"
+#include "Node.h" // Quản lý cần dùng Node
 
 class QuanLyNhanVien {
 private:
     Node* head;
     Node* tail;
 
+    // Hàm phụ trợ
+    void ThemNodeVaoDanhSach(NhanVien nv);
+
 public:
     QuanLyNhanVien();
-    ~QuanLyNhanVien(); // giải phóng bộ nhớ
+    ~QuanLyNhanVien(); // Destructor giải phóng bộ nhớ
 
-    void themNhanVien(const NhanVien& nv);
-    void hienThiDanhSach() const;
-    Node* timTheoMa(const string& ma) const;
+    void ThemNhanVien();
+    void ThemSanNhanVien(string ma, string ten, string phong, double luong);
+    void HienThiTatCa();
+    void TimKiemTheoMa();
+    void TinhTongLuong();
+    void LocTheoLuong();
 
-    double tinhTongLuong() const;
-    void locTheoLuong(double minLuong) const;
-
-    // TODO: thêm xóa / sửa nếu cần
+    // Chức năng mới nhóm yêu cầu
+    void XoaNhanVien();
 };
