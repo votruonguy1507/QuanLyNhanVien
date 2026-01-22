@@ -1,0 +1,10 @@
+﻿  NhanVien.cpp
+D:\Code\QuanLyNhanVien\QLNV_DLL\Utils.h(64,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'NhanVien.cpp')
+  
+  main.cpp
+D:\Code\QuanLyNhanVien\QLNV_DLL\Utils.h(64,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  Generating Code...
+  QLNV_DLL.vcxproj -> D:\Code\QuanLyNhanVien\QLNV_DLL\x64\Debug\QLNV_DLL.exe

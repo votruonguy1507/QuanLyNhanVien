@@ -38,15 +38,33 @@ void QuanLyNhanVien::ThemNhanVien()
     cout << "-> Them thanh cong!\n";
 }
 
-void QuanLyNhanVien::HienThiTatCa() 
+void QuanLyNhanVien::HienThiTatCa()
 {
-    if (!head) { cout << "\nDanh sach trong!\n"; return; }
-    cout << "\n" << left << setw(10) << "Ma NV" << setw(25) << "Ho Ten"
-        << setw(15) << "Phong Ban" << setw(15) << "Luong CB" << endl;
-    cout << string(65, '-') << endl;
+    if (!head) {
+        cout << "\nDanh sach trong!\n";
+        return;
+    }
+
+    cout << "\nDANH SACH NHAN VIEN\n";
+    cout << string(70, '-') << endl;
+
+    cout << left
+        << setw(10) << "MaNV"
+        << setw(25) << "Ho Ten"
+        << setw(15) << "Phong Ban"
+        << setw(15) << "Luong (VND)" << endl;
+
+    cout << string(70, '-') << endl;
+
     Node* curr = head;
-    while (curr) { curr->data.Xuat(); curr = curr->next; }
+    while (curr) {
+        curr->data.Xuat();   // ✅ giữ nguyên như cũ
+        curr = curr->next;
+    }
+
+    cout << string(70, '-') << endl;
 }
+
 
 void QuanLyNhanVien::TimKiemTheoMa() 
 {

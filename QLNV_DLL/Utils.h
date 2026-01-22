@@ -57,4 +57,16 @@ public:
         // (Để đơn giản, tạm thời bạn cứ return ten; nếu chưa cần chức năng này)
         return ten;
     }
+
+    // 6. Hàm định dạng tiền VND
+    static string FormatVND(long long soTien) {
+        string s = to_string(soTien);
+        int pos = s.length() - 3;
+
+        while (pos > 0) {
+            s.insert(pos, ".");
+            pos -= 3;
+        }
+        return s;
+    }
 };

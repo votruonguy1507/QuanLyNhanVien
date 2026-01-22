@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QLNV_DLL", "QLNV_DLL.vcxproj", "{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QLNV_Vector", "..\QLNV_Vector\QLNV_Vector.vcxproj", "{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QLNV_Vector", "..\QLNV_Vector\QLNV_Vector.vcxproj", "{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}.Release|x64.Build.0 = Release|x64
 		{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}.Release|x86.ActiveCfg = Release|Win32
 		{DEBB855D-D097-4E52-B65C-C47DAB0B6D2A}.Release|x86.Build.0 = Release|Win32
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Debug|x64.ActiveCfg = Debug|x64
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Debug|x64.Build.0 = Debug|x64
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Debug|x86.ActiveCfg = Debug|Win32
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Debug|x86.Build.0 = Debug|Win32
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Release|x64.ActiveCfg = Release|x64
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Release|x64.Build.0 = Release|x64
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Release|x86.ActiveCfg = Release|Win32
-		{CF88E34F-2D70-432F-A4DF-852DFE6C6EEB}.Release|x86.Build.0 = Release|Win32
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Debug|x64.ActiveCfg = Debug|x64
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Debug|x64.Build.0 = Debug|x64
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Debug|x86.Build.0 = Debug|Win32
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Release|x64.ActiveCfg = Release|x64
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Release|x64.Build.0 = Release|x64
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Release|x86.ActiveCfg = Release|Win32
+		{8E99F0F8-BF08-45F4-8046-2EE4FF50670C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
