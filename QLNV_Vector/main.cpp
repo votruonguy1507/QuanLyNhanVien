@@ -1,97 +1,45 @@
-#include <iostream>
-#include <vector>
-#include <iomanip>
-#include "NhanVien.h"
+﻿#include "QuanLyNhanVien.h"
+#include "Utils.h"
 
-using namespace std;
-
-// ========== IMPLEMENT METHOD ==========
-void NhanVien::nhap() {
-    cout << "Ma NV: ";
-    getline(cin, maNV);
-    cout << "Ho ten: ";
-    getline(cin, hoTen);
-    cout << "Phong ban: ";
-    getline(cin, phongBan);
-    cout << "Luong co ban: ";
-    cin >> luongCoBan;
-    cin.ignore();
-}
-
-void NhanVien::xuat() const {
-    cout << left << setw(10) << maNV
-        << setw(20) << hoTen
-        << setw(15) << phongBan
-        << setw(10) << luongCoBan << endl;
-}
-
-// ========== MAIN ==========
 int main() {
-    vector<NhanVien> ds;
-    int choice;
+    QuanLyNhanVien ql;
+    ql.ThemSanNhanVien("NV01", "Nguyen Van A", "Ke Toan", 12000000);
+    ql.ThemSanNhanVien("NV02", "Tran Thi B", "Nhan Su", 9000000);
 
+    int chon;
     do {
-        cout << "\n===== QLNV (VECTOR VERSION) =====\n";
-        cout << "1. Them nhan vien\n";
-        cout << "2. Hien thi danh sach\n";
-        cout << "3. Tim theo ma\n";
-        cout << "4. Tong quy luong\n";
-        cout << "5. Loc theo luong\n";
-        cout << "0. Thoat\n";
-        cout << "Chon: ";
-        cin >> choice;
-        cin.ignore();
-
-        if (choice == 1) {
-            NhanVien nv;
-            nv.nhap();
-            ds.push_back(nv);   // vector
+        Utils::XoaManHinh(); // Xóa màn hình cho sạch
+        cout << "\n=== MENU QUAN LY NHAN VIEN ===\n";
+        cout << "1. Them nhan vien moi\n";
+        cout << "2. Hien thi danh sach nhan vien\n";
+        cout << "3. Xoa nhan vien\n";
+        cout << "4. Tim kiem nhan vien theo ma\n";
+        cout << "5. Tinh tong quy luong\n";
+        cout << "6. Loc nhan vien theo muc luong\n";
+        cout << "0. Thoat chuong trinh\n";
+        cout << "Lua chon cua ban: ";
+       
+        if (!(cin >> chon)) {
+            cin.clear(); cin.ignore(100, '\n'); chon = -1;
         }
-        else if (choice == 2) {
-            cout << left << setw(10) << "Ma NV"
-                << setw(20) << "Ho ten"
-                << setw(15) << "Phong ban"
-                << setw(10) << "Luong" << endl;
+       
 
-            for (const auto& nv : ds)
-                nv.xuat();
-        }
-        else if (choice == 3) {
-            string ma;
-            cout << "Nhap ma NV: ";
-            getline(cin, ma);
-
-            bool found = false;
-            for (const auto& nv : ds) {
-                if (nv.getMaNV() == ma) {
-                    nv.xuat();
-                    found = true;
-                    break;
-                }
-            }
-            if (!found)
-                cout << "Khong tim thay!\n";
-        }
-        else if (choice == 4) {
-            double tong = 0;
-            for (const auto& nv : ds)
-                tong += nv.getLuongCoBan();
-
-            cout << "Tong quy luong: " << tong << endl;
-        }
-        else if (choice == 5) {
-            double minLuong;
-            cout << "Nhap luong toi thieu: ";
-            cin >> minLuong;
-            cin.ignore();
-
-            for (const auto& nv : ds) {
-                if (nv.getLuongCoBan() >= minLuong)
-                    nv.xuat();
-            }
+        switch (chon) {
+        case 1: ql.ThemNhanVien(); break;
+        case 2: ql.HienThiTatCa(); break;
+        case 3: ql.XoaNhanVien(); break;
+        case 4: ql.TimKiemTheoMa(); break;
+        case 5: ql.TinhTongLuong(); break;
+        case 6: ql.LocTheoLuong(); break;
+        case 0: cout << "Ket thuc chuong trinh.\n"; break;
+        default: cout << "Sai lua chon!\n";
         }
 
-    } while (choice != 0);
+        if (chon != 0) {
+            Utils::DungManHinh(); // Dừng màn hình để xem kết quả
+        }
+
+    } while (chon != 0);
 
     return 0;
 }

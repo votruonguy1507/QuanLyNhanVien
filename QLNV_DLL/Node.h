@@ -1,11 +1,14 @@
-#pragma once
-#include "NhanVien.h"
+﻿#pragma once
+#include "NhanVien.h" // Node cần biết NhanVien là gì
 
 struct Node {
     NhanVien data;
-    Node* prev;
     Node* next;
+    Node* prev;
 
-    Node(NhanVien nv) : data(nv), prev(nullptr), next(nullptr) {}
+    Node(NhanVien nv) {
+        data = nv;
+        next = NULL;
+        prev = NULL;
+    }
 };
-
