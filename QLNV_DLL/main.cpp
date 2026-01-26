@@ -2,13 +2,20 @@
 #include "Utils.h"
 
 int main() {
+    // khai bao class QuanLyNhanVien
     QuanLyNhanVien ql;
+
+    // de them trc du lieu nv vao list
     ql.ThemSanNhanVien("NV01", "Nguyen Van A", "Ke Toan", 12000000);
     ql.ThemSanNhanVien("NV02", "Tran Thi B", "Nhan Su", 9000000);
 
+    // khai bao bien de xdinh lua chon cua ng dung 
     int chon;
     do {
         Utils::XoaManHinh(); // Xóa màn hình cho sạch
+
+
+    // hien thi ra menu co 6 op tu 1 den 6 va 0 de thoat ctrinh 
         cout << "\n=== MENU QUAN LY NHAN VIEN ===\n";
         cout << "1. Them nhan vien moi\n";
         cout << "2. Hien thi danh sach nhan vien\n";
@@ -25,10 +32,10 @@ int main() {
             cin.clear(); cin.ignore(100, '\n'); chon = -1;
         }
 
+        // tuong ung vs menu o tren thi day la sw case de xu ly op cua menu
         switch (chon) {
-        case 1: ql.ThemNhanVien(); break;
+        case 1: ql.ThemNhanVien(); break;// function 
         case 2: ql.HienThiTatCa(); break;
-        case 3: ql.XoaNhanVien(); break;
         case 4: ql.TimKiemTheoMa(); break;
         case 5: ql.TinhTongLuong(); break;
         case 6: ql.LocTheoLuong(); break;
