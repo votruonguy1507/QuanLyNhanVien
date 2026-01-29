@@ -28,10 +28,6 @@ void NhanVien::Nhap() {
 }
 
 void NhanVien::Xuat() {
-    cout << left
-        << setw(10) << maNV
-        << setw(25) << hoTen
-        << setw(15) << phongBan
-        << setw(15) << Utils::FormatVND((long long)luongCoBan)
-        << endl;
+    cout << left << setw(10) << maNV << setw(25) << hoTen
+        << setw(15) << phongBan << setw(15) << fixed << setprecision(0) << luongCoBan << endl;
 }
